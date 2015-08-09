@@ -1,0 +1,58 @@
+
+.body {
+
+}
+
+.navbar {
+	background-color: gray;
+	max-width: 100%;
+	width: auto;
+	height: 30px;
+	padding: 10px;
+	margin: 0px;
+}
+
+.navbar .container li {
+	display: inline;
+	list-style: none;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+	width: auto;
+
+
+}
+
+/*
+.navbar .container ul {
+	padding: 0;
+	margin: 0;
+
+}
+*/
+
+.navbar .container {
+	
+	padding: 10px;
+
+	float: right;
+	
+}
+
+.header .container {
+	clear: both;
+	background-image: url("http://pryorbae.com/jastest/img/bannerimage,jpg");
+	height: 350px;
+	background-position: 50% 55%;
+	background
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
