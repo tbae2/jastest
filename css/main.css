@@ -1,58 +1,70 @@
 
-.body {
-
+body {
+	font-family: 'Source Code Pro' ;
+	background-color: #f5f6f7;
 }
-
 .navbar {
-	background-color: gray;
-	max-width: 100%;
-	width: auto;
-	height: 30px;
-	padding: 10px;
-	margin: 0px;
+	background-color: rgba(66,73,79,0.94);
+	padding: 0px;
+	border-radius: 3px;
+	opacity: 0.5;
+	height: 60px;
 }
-
-.navbar .container li {
-	display: inline;
-	list-style: none;
+.navbar ul {
+	display: inline-block;
+	
+	height: inherit;
 	margin: 0 auto;
-	padding: 5px;
-	text-align: center;
-	width: auto;
-
+}
+.navbar ul li {
+	position: relative;
+	display: inline-block;
+	height: inherit;
+	margin: 0 auto;
+	line-height: 2.4;
+	text-transform: uppercase;
+	padding: 0px;
+}
+.navbar ul a:hover {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	opacity: 0.5;
+	background-color: white;
+	border-radius: 2px;
 
 }
-
-/*
-.navbar .container ul {
-	padding: 0;
-	margin: 0;
-
-}
-*/
-
-.navbar .container {
-	
-	padding: 10px;
-
-	float: right;
-	
-}
-
 .header .container {
 	clear: both;
 	background-image: url("http://pryorbae.com/jastest/img/bannerimage,jpg");
-	height: 350px;
+	height: 400px;
 	background-position: 50% 55%;
-	background
+	
 }
-
-a:hover {
-	text-decoration: none;
-	color: black;
-}
-
-a {
+.navbar ul li a {
 	text-decoration: none;
 	color: white;
+		padding-left: 5px;
+	padding-right: 5px;
+	height: inherit;
+	font-size: 25;
+	font-weight: bold;
+}
+
+.header .container #logo {
+	padding: 60px;
+	height: 250px;
+	width: auto;
+}
+.tracks .tracksraced {
+	text-align: center;
+}
+.tracks .trackblurb {
+	text-align: center;
+}
+.sponsors .sponsorsblurb {
+	text-align: center;
+}
+.sponsors .sponsormessage {
+	text-align: center;
 }
