@@ -63,13 +63,14 @@ body {
 	text-align: center;
 }
 
-.sponsors .container{
+.sponsors {
 		border-top: 1px solid #e1e1e1;
 	border-bottom: 1px solid #e1e1e1;
 	background-color: #f8f8f8;
-	overflow: hidden;
+	/*overflow: hidden;*/
 
 }
+/*
 .sponsors .container img{
 	width:100%;
 	height: auto;
@@ -77,27 +78,46 @@ body {
 	padding: 0 2%;
 
 }
-.sponsors .container .sponsorsblurb {
+*/
+.sponsors .sponsorsblurb {
 	text-align: center;
 }
-.sponsors .container .sponsormessage {
+.sponsors .sponsormessage {
 	text-align: center;
 }
-.sponsors .container .inner-container {
+.sponsors .inner-container {
 	overflow: hidden;
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 25px;
+	padding-bottom: 25px;
 	margin: 0 auto;
 	width: 50%;
-	
+	height: 180px;
 }
-.sponsors .container .inner-container .sponsorlogo .logo{
-	float: left;
-	height: auto;
-	width: 150px;
+
+.sponsors .inner-container:before {
+	content: "";
 	display: inline-block;
-	margin: 0 auto;
-	overflow: hidden;
+	vertical-align: middle;
+	height: 100%;
+}
+
+
+.sponsors .inner-container .logo{
+	float: left;
+	width: 150px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 10px;
+	/*
+	height: auto;
+	
+	*/
+	/*display: inline-block;*/
+	
+	
+	/*vertical-align: middle;*/
 
 }
