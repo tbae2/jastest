@@ -101,33 +101,14 @@ body {
 	left: 0;
 	width: 100%;
 }
-.tracks .inner-container .trackmap1 .ampresults span {
+.tracks .inner-container .trackmap1 .results span {
 		color: white;
 		background: rgba(0,0,0,0.7);
-		letter-spacing: -1px;		
+		letter-spacing: -1px;
+		opacity: 0;		
 
 }
-.tracks .inner-container .trackmap1 .barberresults span {
-		color: white;
-		background: rgba(0,0,0,0.7);
-		letter-spacing: -1px;		
 
-}
-.tracks .inner-container .trackmap1 .daytonaresults span {
-		color: white;
-		background: rgba(0,0,0,0.7);
-		letter-spacing: -1px;		
-}
-.tracks .inner-container .trackmap1 .sebringresults span {
-		color: white;
-		background: rgba(0,0,0,0.7);
-		letter-spacing: -1px;		
-}
-.tracks .inner-container .trackmap1 .raresults span {
-		color: white;
-		background: rgba(0,0,0,0.7);
-		letter-spacing: -1px;		
-}
 .sponsors {
 	border-top: 1px solid #e1e1e1;
 	border-bottom: 1px solid #e1e1e1;
