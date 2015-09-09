@@ -3,12 +3,15 @@ body {
 	font-family: 'Source Code Pro' ;
 	background-color: #f5f6f7;
 }
+.content {
+height: auto;	
+}
 .navbar {
 	background-color: rgba(66,73,79,0.94);
 	padding: 0px;
 	border-radius: 3px;
 	opacity: 0.5;
-	height: 60px;
+	height: 50px;
 }
 .navbar ul {
 	display: inline-block;
@@ -21,7 +24,7 @@ body {
 	display: inline-block;
 	height: inherit;
 	margin: 0 auto;
-	line-height: 2.4;
+	line-height: 2;
 	text-transform: uppercase;
 	padding: 0px;
 }
@@ -61,33 +64,23 @@ body {
 }
 .tracks .trackblurb {
 	text-align: center;
+	clear: both;
 }
 .tracks .inner-container {
+
 	overflow: hidden;
 	padding: 25px 100px 25px 100px;
 	margin: 0 auto;
 	width: 75%;
-	height: 280px;
-}
-/*
-.tracks .inner-container .trackmap {
-	float: left;
-	padding: 10px;
-	width: 250px;
-	top: 50%;
-	position: relative;
-	transform: translateY(-50%);
 	
 }
-*/
-
 .tracks .inner-container .trackmap1 {
 	float: left;
 	padding: 10px;
 	width: 250px;
 	top: 50%;
 	position: relative;
-	transform: translateY(-50%);
+	/*transform: translateY(-50%);*/
 }
 
 .tracks .inner-container .trackmap1 img{
@@ -108,36 +101,40 @@ body {
 		opacity: 0;		
 
 }
-
+/*
 .sponsors {
-	border-top: 1px solid #e1e1e1;
-	border-bottom: 1px solid #e1e1e1;
+	clear: both;
+	
 	background-color: #f8f8f8;
 	margin: 0 auto;
 }
-
+*/
 .sponsors .sponsorsblurb {
+	border-top: 1px solid #e1e1e1;
 	text-align: center;
 }
 .sponsors .sponsormessage {
 	text-align: center;
+	clear: both;
 }
 .sponsors .inner-container {
+	
+	border-bottom: 1px solid #e1e1e1;
 	overflow: hidden;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding: 25px 100px 25px 100px;
 	margin: 0 auto;
-	width: 50%;
-	height: 180px;
+	width: 75%;
+	text-align: center;
 }
 .sponsors .inner-container .logo{
-	float: left;
-	width: 150px;
+	display: inline-block;
+	text-align: center;
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
 	padding: 10px;
-
+	margin: 0 auto;
+}
+.sponsors .inner-container .logo img {
+	width: 200px;
+	position: relative;
 }
