@@ -128,9 +128,7 @@ height: auto;
 }
 .sponsors .inner-container .logo{
 	display: inline-block;
-	text-align: center;
-	position: relative;
-	top: 50%;
+	vertical-align: middle;
 	padding: 10px;
 	margin: 0 auto;
 }
