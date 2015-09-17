@@ -134,7 +134,7 @@ height: auto;
 }
 .sponsors .inner-container .logo{
 	display: inline-block;
-	vertical-align: middle;s
+	vertical-align: middle;
 	padding: 10px;
 	margin: 0 auto;
 }
@@ -145,12 +145,32 @@ height: auto;
 .rental {
 	
 }
+.rental .inner-container {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 25px 25px 25px 25px;
+	width: 75%;
+	text-align: center;
+}
 .rental .rentalblurb {
 	text-align: center;
 }
 .rental .rentalmessage {
 	text-align: center;
 	clear: both;
+}
+.rental .inner-container .rental-logo {
+		vertical-align: middle;
+	display: inline-block;
+	margin: 0 auto;
+
+}
+.rental .inner-container .blurb {
+	display: inline-block;
+}
+.rental .inner-container img {
+	width: 200px;
+	position: relative;
 }
 .footer {
 	border-top: 1px solid #e1e1e1;
