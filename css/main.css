@@ -42,7 +42,7 @@ height: auto;
 .header .container .navbar ul li a {
 	text-decoration: none;
 	color: #8a8a8a;
-		padding-left: 5px;
+	padding-left: 5px;
 	padding-right: 5px;
 	height: inherit;
 	font-size: 25;
@@ -54,9 +54,7 @@ height: auto;
 	background-image: url("http://pryorbae.com/jastest/img/bannerimage,jpg");
 	height: 400px;
 	background-position: 50% 55%;
-	
 }
-
 .header .container #logo {
 	padding: 15px;
 	height: 250px;
@@ -104,7 +102,6 @@ height: auto;
 		background: rgba(0,0,0,0.7);
 		letter-spacing: -1px;
 		opacity: 0;		
-
 }
 /*
 .sponsors {
@@ -142,9 +139,6 @@ height: auto;
 	width: 200px;
 	position: relative;
 }
-.rental {
-	
-}
 .rental .inner-container {
 	overflow: hidden;
 	margin: 0 auto;
@@ -160,13 +154,17 @@ height: auto;
 	clear: both;
 }
 .rental .inner-container .rental-logo {
-		vertical-align: middle;
+	vertical-align: middle;
 	display: inline-block;
 	margin: 0 auto;
+	padding-right: 25px;
 
 }
 .rental .inner-container .blurb {
 	display: inline-block;
+}
+.rental .inner-container .rental-logo .submit {
+	width: 200px;
 }
 .rental .inner-container img {
 	width: 200px;
@@ -175,4 +173,7 @@ height: auto;
 .footer {
 	border-top: 1px solid #e1e1e1;
 
+}
+.footer h6 {
+	color: #8a8a8a;
 }
