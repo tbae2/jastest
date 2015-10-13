@@ -3,6 +3,11 @@ body {
 	font-family: 'Source Code Pro' ;
 	background-color: #f5f6f7;
 }
+.header .container #logo {
+	padding: 60px;
+	height: 250px;
+	width: auto;
+}
 .navbar {
 	background-color: rgba(66,73,79,0.94);
 	padding: 0px;
@@ -49,12 +54,6 @@ body {
 	height: inherit;
 	font-size: 25;
 	font-weight: bold;
-}
-
-.header .container #logo {
-	padding: 60px;
-	height: 250px;
-	width: auto;
 }
 .tracks .tracksraced {
 	text-align: center;
