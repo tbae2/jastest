@@ -1,0 +1,6 @@
+.header .container {
+	clear: both;
+	background-image: url("http://pryorbae.com/jastest/img/bannerimage,jpg");
+	height: 400px;
+	background-position: 50% 55%;
+}
